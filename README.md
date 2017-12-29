@@ -29,4 +29,7 @@ In your GitBook `books.json`, we recommend this plugin configuration:
   …
 }
 ```
-Then run `gitbook.js build` after GitBook CLI is installed.
+
+Then run `gitbook.js install` and `gitbook.js build` after the [GitBook CLI](https://www.npmjs.com/package/gitbook-cli) is installed.
+
+The minus sign, such as in `"-theme-default"` will uninstall a default plugin.
